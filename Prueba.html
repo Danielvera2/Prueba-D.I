@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Prueba programacion visual</title>
+</head>
+<body class="">
+  <body style="min-height: 2000px; padding-top:56px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">
+          <img src="icons8-play-station-30.png" alt="">
+        </a>
+        <!--Menu Hamburgesa movil -->
+        <button 
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Mostrar / Ocultar Menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+  
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a 
+                href="#" 
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                id="dropdown-menu"
+              >
+                Categorias
+              </a>
+  
+              <ul class="dropdown-menu" aria-labelledby="dropdown-menu">
+                <li><a href="https://www.playstation.com/es-ec/ps5/?smcid=other%3Aes-ec%3Ablank%3Aprimary%20nav%3Amsg-hardware%3Aps5" class="dropdown-item">Consolas</a></li>
+                <li><a href="https://store.playstation.com/es-ec/category/e1699f77-77e1-43ca-a296-26d08abacb0f/1" class="dropdown-item">Videojuegos</a></li>
+                <li><a href="https://www.playstation.com/es-ec/accessories/?smcid=store%3Aes-ec%3Apages-latest%3Aprimary%20nav%3Amsg-hardware%3Aaccesorios-de-ps5-y-ps4" class="dropdown-item">Accesorios</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a href="https://store.playstation.com/es-ec/pages/latest/?smcid=pdc%3Aes-ec%3Aps-vr2%3Aprimary%20nav%3Amsg-shop%3Anuevos-lanzamientos" class="dropdown-item">Novedades</a></li>
+              </ul>
+            </li>
+  
+            <li class="nav-item"><a href="https://store.playstation.com/es-ec/pages/deals" class="nav-link">Ofertas</a></li>
+            <li class="nav-item"><a href="https://www.playstation.com/es-ec/support/?smcid=pdc%3Aes-ec%3Aprimary%20nav%3Amsg-support%3Aasistencia" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <!--Carrusel-->
+    <div class="container-xl justify-content-between w-100 h-50 rounded ">
+      <div id="carousel1" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carousel1" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.idgtv.es/archivos/202011/ps5.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-light fw-bold">
+                  <h5>Nueva PS5</h5>
+                  <p>Disponible en ambas versiones.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://gmedia.playstation.com/is/image/SIEPDC/playstation-ecosystem-ps4-to-ps5-keyart-01-en-09aug21?$facebook$" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.eluniverso.com/resizer/unBEpdrHv-ONGoygIrUrHI0WVJo=/1117x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/ASLHASY65RGPBGSK4SIM2IAXYE.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.eluniverso.com/resizer/T4ODnDPmRI_0iMq8gRVasa6vHqo=/1117x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/IQE3GAHB4JAHDN3QIARBGCE6AQ.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://www.eluniverso.com/resizer/QtSGyVwVRsgjZ2HSplpKRIHbqBE=/1117x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/6MYEA2R66BBWBO3ILFPWTMTDVI.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-light fw-bold">
+                  <h5>Disponible en PS5</h5>
+                  <p>Minecraft version play station disponible para reservar.</p>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          
+        </div>
+  </div>
+
+    <footer class="bg-gradient text-center text-lg-start fixed-bottom">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://www.playstation.com/es-ec/">Sony Play Station</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+   
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
